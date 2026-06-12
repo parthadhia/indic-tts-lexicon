@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/entry.schema.json",
+  "title": "Indic TTS Lexicon Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "word",
+    "language",
+    "native_script",
+    "pronunciation_text",
+    "ipa",
+    "ssml_phoneme",
+    "aliases",
+    "category",
+    "notes",
+    "contributors",
+    "reviewed"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "word": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "gujarati",
+        "hindi",
+        "sanskrit"
+      ]
+    },
+    "native_script": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pronunciation_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ipa": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ssml_phoneme": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "alphabet",
+        "ph"
+      ],
+      "properties": {
+        "alphabet": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ph": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "category": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "contributors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "reviewed": {
+      "type": "boolean"
+    }
+  }
+}
