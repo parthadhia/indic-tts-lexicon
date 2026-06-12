@@ -1,0 +1,50 @@
+{
+  "name": "indic-tts-lexicon",
+  "version": "0.1.0",
+  "description": "Community-maintained pronunciation substitution lexicon for Indian-language words in English TTS workflows.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data",
+    "schemas",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepack": "npm run build",
+    "validate:data": "node scripts/validate-data.mjs",
+    "test": "vitest run",
+    "check": "npm run build && npm run validate:data && npm run test"
+  },
+  "keywords": [
+    "tts",
+    "ssml",
+    "ipa",
+    "pronunciation",
+    "india",
+    "gujarati",
+    "sanskrit",
+    "hindi",
+    "lexicon"
+  ],
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
