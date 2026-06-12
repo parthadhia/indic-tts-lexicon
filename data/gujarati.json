@@ -1,0 +1,234 @@
+[
+  {
+    "id": "gujarati-swaminarayan",
+    "word": "Swaminarayan",
+    "language": "gujarati",
+    "native_script": "સ્વામિનારાયણ",
+    "pronunciation_text": "swaa-mee-naa-raa-yan",
+    "ipa": "sʋɑː.mi.nɑː.ɾɑː.jəɳ",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "sʋɑː.mi.nɑː.ɾɑː.jəɳ"
+    },
+    "aliases": [],
+    "category": "devotional",
+    "notes": "Seed approximation for English TTS. Pronunciation can vary slightly by speaker and community.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-jay-swaminarayan",
+    "word": "Jay Swaminarayan",
+    "language": "gujarati",
+    "native_script": "જય સ્વામિનારાયણ",
+    "pronunciation_text": "jai swaa-mee-naa-raa-yan",
+    "ipa": "dʒəj sʋɑː.mi.nɑː.ɾɑː.jəɳ",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "dʒəj sʋɑː.mi.nɑː.ɾɑː.jəɳ"
+    },
+    "aliases": [
+      "Jai Swaminarayan"
+    ],
+    "category": "devotional greeting",
+    "notes": "Greeting used in Swaminarayan devotional contexts. Seed approximation only.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-akshar",
+    "word": "Akshar",
+    "language": "gujarati",
+    "native_script": "અક્ષર",
+    "pronunciation_text": "ak-shar",
+    "ipa": "ək.ʂəɾ",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "ək.ʂəɾ"
+    },
+    "aliases": [],
+    "category": "devotional",
+    "notes": "Common Sanskrit-derived devotional term used widely in Gujarati contexts.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-purushottam",
+    "word": "Purushottam",
+    "language": "gujarati",
+    "native_script": "પુરુષોત્તમ",
+    "pronunciation_text": "pu-roo-sho-tum",
+    "ipa": "pu.ɾu.ʂot.təm",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "pu.ɾu.ʂot.təm"
+    },
+    "aliases": [],
+    "category": "devotional",
+    "notes": "Seed approximation. Community review still needed.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-maharaj",
+    "word": "Maharaj",
+    "language": "gujarati",
+    "native_script": "મહારાજ",
+    "pronunciation_text": "maa-haa-raaj",
+    "ipa": "mə.ɦɑː.ɾɑːdʒ",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "mə.ɦɑː.ɾɑːdʒ"
+    },
+    "aliases": [],
+    "category": "honorific",
+    "notes": "Honorific. TTS-friendly approximation only.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-swami",
+    "word": "Swami",
+    "language": "gujarati",
+    "native_script": "સ્વામી",
+    "pronunciation_text": "swaa-mee",
+    "ipa": "sʋɑː.mi",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "sʋɑː.mi"
+    },
+    "aliases": [],
+    "category": "honorific",
+    "notes": "Common devotional honorific. Approximate pronunciation for English TTS.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-bapa",
+    "word": "Bapa",
+    "language": "gujarati",
+    "native_script": "બાપા",
+    "pronunciation_text": "baa-paa",
+    "ipa": "bɑː.pɑː",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "bɑː.pɑː"
+    },
+    "aliases": [],
+    "category": "honorific",
+    "notes": "Respectful familial/devotional title. Seed approximation only.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-mandir",
+    "word": "Mandir",
+    "language": "gujarati",
+    "native_script": "મંદિર",
+    "pronunciation_text": "mun-deer",
+    "ipa": "mən.d̪iɾ",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "mən.d̪iɾ"
+    },
+    "aliases": [
+      "Mandiram"
+    ],
+    "category": "place",
+    "notes": "Temple-related term. Alias list can expand if contributors find common variants.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-seva",
+    "word": "Seva",
+    "language": "gujarati",
+    "native_script": "સેવા",
+    "pronunciation_text": "say-vaa",
+    "ipa": "seː.ʋɑː",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "seː.ʋɑː"
+    },
+    "aliases": [],
+    "category": "practice",
+    "notes": "Often used in devotional or service contexts. Approximation only.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-satsang",
+    "word": "Satsang",
+    "language": "gujarati",
+    "native_script": "સત્સંગ",
+    "pronunciation_text": "sut-sung",
+    "ipa": "sət.səŋg",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "sət.səŋg"
+    },
+    "aliases": [],
+    "category": "devotional gathering",
+    "notes": "Seed approximation. Some speakers may emphasize the second syllable differently.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-pramukh-swami-maharaj",
+    "word": "Pramukh Swami Maharaj",
+    "language": "gujarati",
+    "native_script": "પ્રમુખ સ્વામી મહારાજ",
+    "pronunciation_text": "pruh-mookh swaa-mee maa-haa-raaj",
+    "ipa": "pɾə.mukʰ sʋɑː.mi mə.ɦɑː.ɾɑːdʒ",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "pɾə.mukʰ sʋɑː.mi mə.ɦɑː.ɾɑːdʒ"
+    },
+    "aliases": [],
+    "category": "devotional proper noun",
+    "notes": "Long-form devotional name. Included to ensure longest-match replacement works well in TTS pipelines.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-mahant-swami-maharaj",
+    "word": "Mahant Swami Maharaj",
+    "language": "gujarati",
+    "native_script": "મહંત સ્વામી મહારાજ",
+    "pronunciation_text": "muh-hunt swaa-mee maa-haa-raaj",
+    "ipa": "mə.ɦənt sʋɑː.mi mə.ɦɑː.ɾɑːdʒ",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "mə.ɦənt sʋɑː.mi mə.ɦɑː.ɾɑːdʒ"
+    },
+    "aliases": [],
+    "category": "devotional proper noun",
+    "notes": "Seed approximation for English TTS. Community review still needed.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  }
+]
