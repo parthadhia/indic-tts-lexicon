@@ -114,7 +114,7 @@ Example entry:
   "word": "Swaminarayan",
   "language": "gujarati",
   "native_script": "સ્વામિનારાયણ",
-  "pronunciation_text": "swaa-mee-naa-raa-yan",
+  "pronunciation_text": "swa-mee-na-ra-yan",
   "ipa": "sʋɑː.mi.nɑː.ɾɑː.jəɳ",
   "ssml_phoneme": {
     "alphabet": "ipa",
@@ -191,4 +191,4 @@ replaceTermsToSSML("Pramukh Swami Maharaj inspired satsang.", {
 
 ## Status
 
-This is an MVP starter repo. The initial pronunciation entries are practical approximations meant to improve English TTS behavior, not final linguistic authorities.
+This is an MVP starter repo. The pronunciation entries are practical approximations meant to improve English TTS behavior, not final linguistic authorities. Many community-seeded entries remain unreviewed by design.

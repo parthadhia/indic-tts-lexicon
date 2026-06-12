@@ -1,0 +1,78 @@
+[
+  {
+    "id": "hindi-maharaj",
+    "word": "Maharaj",
+    "language": "hindi",
+    "native_script": "महाराज",
+    "pronunciation_text": "muh-haa-raaj",
+    "ipa": "mə.ɦɑː.ɾɑːdʒ",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "mə.ɦɑː.ɾɑːdʒ"
+    },
+    "aliases": [],
+    "category": "honorific",
+    "notes": "Broad Hindi approximation for English TTS.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "hindi-mandir",
+    "word": "Mandir",
+    "language": "hindi",
+    "native_script": "मंदिर",
+    "pronunciation_text": "mun-deer",
+    "ipa": "mən.d̪iɾ",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "mən.d̪iɾ"
+    },
+    "aliases": [],
+    "category": "place",
+    "notes": "Broad Hindi approximation for temple-related usage.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "hindi-seva",
+    "word": "Seva",
+    "language": "hindi",
+    "native_script": "सेवा",
+    "pronunciation_text": "say-vaa",
+    "ipa": "seː.ʋɑː",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "seː.ʋɑː"
+    },
+    "aliases": [],
+    "category": "practice",
+    "notes": "Common service-oriented term. Approximate pronunciation only.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "hindi-satsang",
+    "word": "Satsang",
+    "language": "hindi",
+    "native_script": "सत्संग",
+    "pronunciation_text": "sut-sung",
+    "ipa": "sət.səŋg",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "sət.səŋg"
+    },
+    "aliases": [],
+    "category": "devotional gathering",
+    "notes": "Seed approximation. Regional stress may differ.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  }
+]

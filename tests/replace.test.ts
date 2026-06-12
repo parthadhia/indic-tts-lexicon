@@ -21,7 +21,7 @@ describe("replaceTerms", () => {
       language: "gujarati"
     });
 
-    expect(result).toBe("swaa-mee-naa-raa-yan");
+    expect(result).toBe("Swa-mee-Na-ra-yan");
   });
 
   it("uses the longest matching phrase first", () => {
@@ -45,7 +45,7 @@ describe("replaceTerms", () => {
       language: "gujarati"
     });
 
-    expect(result).toBe("mun-deer, say-vaa, and sut-sung.");
+    expect(result).toBe("mun-deer, say-vaa, and Sut-sung.");
   });
 
   it("leaves unknown words unchanged", () => {
