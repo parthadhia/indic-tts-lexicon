@@ -5,9 +5,12 @@ import type { LexiconEntry } from '../types/lexicon';
 interface LexiconSearchProps {
   speechSupported: boolean;
   playSpeech: (text: string, isOriginal?: boolean) => void;
+  voices: SpeechSynthesisVoice[];
+  selectedVoiceURI: string;
+  setSelectedVoiceURI: (uri: string) => void;
 }
 
-export function LexiconSearch({ speechSupported, playSpeech }: LexiconSearchProps) {
+export function LexiconSearch({ speechSupported, playSpeech, voices, selectedVoiceURI, setSelectedVoiceURI }: LexiconSearchProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState<string>('all');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
@@ -76,6 +79,24 @@ export function LexiconSearch({ speechSupported, playSpeech }: LexiconSearchProp
         </div>
 
         <div className="filters-row">
+          {speechSupported && voices.length > 0 && (
+            <div className="filter-group">
+              <span className="filter-label">Voice:</span>
+              <select 
+                className="form-select"
+                value={selectedVoiceURI}
+                onChange={(e) => setSelectedVoiceURI(e.target.value)}
+                style={{ padding: '0.45rem 1rem', borderRadius: '20px', maxWidth: '200px' }}
+              >
+                {voices.map(v => (
+                  <option key={v.voiceURI} value={v.voiceURI}>
+                    {v.name} ({v.lang})
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
+
           <div className="filter-group">
             <span className="filter-label">Language:</span>
             <div className="pill-container">

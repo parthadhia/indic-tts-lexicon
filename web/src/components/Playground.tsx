@@ -4,9 +4,12 @@ import { ALL_DATA } from '../data';
 interface PlaygroundProps {
   speechSupported: boolean;
   playSpeech: (text: string, isOriginal?: boolean) => void;
+  voices: SpeechSynthesisVoice[];
+  selectedVoiceURI: string;
+  setSelectedVoiceURI: (uri: string) => void;
 }
 
-export function Playground({ speechSupported, playSpeech }: PlaygroundProps) {
+export function Playground({ speechSupported, playSpeech, voices, selectedVoiceURI, setSelectedVoiceURI }: PlaygroundProps) {
   const [sandboxText, setSandboxText] = useState('Jay Swaminarayan. Mahant Swami Maharaj visited the mandir.');
   const [sandboxLang, setSandboxLang] = useState('gujarati');
   const [sandboxMode, setSandboxMode] = useState<'pronunciation_text' | 'ssml' | 'ipa'>('pronunciation_text');
@@ -177,22 +180,39 @@ export function Playground({ speechSupported, playSpeech }: PlaygroundProps) {
         </div>
 
         {speechSupported && sandboxMode === 'pronunciation_text' && (
-          <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem', flexWrap: 'wrap' }}>
-            <button 
-              className="btn-primary" 
-              style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-color)', color: 'var(--text-primary)', flex: 1, minWidth: '150px' }}
-              onClick={() => playSpeech(sandboxText, true)}
-            >
-              Play Unsubstituted
-            </button>
-            <button 
-              className="btn-primary" 
-              style={{ flex: 1, minWidth: '150px' }}
-              onClick={() => playSpeech(renderReplacementText)}
-            >
-              Play Substituted
-            </button>
-          </div>
+          <>
+            <div className="form-field" style={{ marginTop: '1.5rem' }}>
+              <label className="form-label">System Voice</label>
+              <select 
+                className="form-select"
+                value={selectedVoiceURI}
+                onChange={(e) => setSelectedVoiceURI(e.target.value)}
+              >
+                {voices.map(v => (
+                  <option key={v.voiceURI} value={v.voiceURI}>
+                    {v.name} ({v.lang})
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem', flexWrap: 'wrap' }}>
+              <button 
+                className="btn-primary" 
+                style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-color)', color: 'var(--text-primary)', flex: 1, minWidth: '150px' }}
+                onClick={() => playSpeech(sandboxText, true)}
+              >
+                Play Unsubstituted (Input Text)
+              </button>
+              <button 
+                className="btn-primary" 
+                style={{ flex: 1, minWidth: '150px' }}
+                onClick={() => playSpeech(renderReplacementText)}
+              >
+                Play Substituted (Output Text)
+              </button>
+            </div>
+          </>
         )}
         
         {sandboxMode === 'ssml' && (
