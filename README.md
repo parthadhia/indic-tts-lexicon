@@ -16,14 +16,12 @@ This repo aims to be a clean open data layer plus a small TypeScript helper libr
 
 ## License
 
-This repository uses dual licensing:
+This repository uses dual licensing to ensure it remains open-source forever and cannot be exploited for commercial gain:
 
-- Code in `src/`, `tests/`, `examples/`, `scripts/`, and GitHub workflow/config files is licensed under MIT.
-- Pronunciation data in `data/*.json` is licensed under CC-BY-4.0.
+- **Code** (in `src/`, `web/`, `tests/`, `examples/`, `scripts/`) is licensed under **GPLv3**.
+- **Pronunciation Data** (in `data/*.json`) is licensed under **CC BY-NC-SA 4.0** (Non-Commercial).
 
-That split is intentional. The code should be easy to reuse in software projects, while contributed pronunciation data should remain openly attributable.
-
-See [LICENSE](./LICENSE) for the details and notes.
+This strictly prohibits using the community-contributed pronunciation data for commercial products or making money. See [LICENSE](./LICENSE) for full details.
 
 ## Install
 

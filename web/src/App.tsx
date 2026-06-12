@@ -36,8 +36,8 @@ export default function App() {
     window.speechSynthesis.cancel();
     
     // If it's the substituted text (which contains hyphens for visual reading),
-    // replace hyphens with spaces so the TTS engine blends the syllables instead of spelling them out.
-    const utteranceText = isOriginal ? text : text.replace(/-/g, ' ');
+    // remove hyphens entirely so the TTS engine blends the syllables instead of spelling them out (like "n-a-a").
+    const utteranceText = isOriginal ? text : text.replace(/-/g, '');
     const utterance = new SpeechSynthesisUtterance(utteranceText);
     const voice = voices.find(v => v.voiceURI === selectedVoiceURI) || voices[0];
     

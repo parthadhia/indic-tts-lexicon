@@ -32,7 +32,16 @@
       "enum": [
         "gujarati",
         "hindi",
-        "sanskrit"
+        "sanskrit",
+        "marathi",
+        "bengali",
+        "tamil",
+        "telugu",
+        "kannada",
+        "malayalam",
+        "punjabi",
+        "odia",
+        "assamese"
       ]
     },
     "native_script": {
