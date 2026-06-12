@@ -1,0 +1,103 @@
+[
+  {
+    "id": "sanskrit-akshar",
+    "word": "Akshar",
+    "language": "sanskrit",
+    "native_script": "अक्षर",
+    "pronunciation_text": "uk-shar",
+    "ipa": "ək.ʂəɾ",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "ək.ʂəɾ"
+    },
+    "aliases": [
+      "Akshara"
+    ],
+    "category": "concept",
+    "notes": "Sanskrit-derived pronunciation approximation for English TTS.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "sanskrit-purushottam",
+    "word": "Purushottam",
+    "language": "sanskrit",
+    "native_script": "पुरुषोत्तम",
+    "pronunciation_text": "pu-roo-sho-tum",
+    "ipa": "pu.ɾu.ʂot.t̪ɐm",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "pu.ɾu.ʂot.t̪ɐm"
+    },
+    "aliases": [
+      "Purushotam"
+    ],
+    "category": "concept",
+    "notes": "Seed approximation only. Transliteration varies.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "sanskrit-swami",
+    "word": "Swami",
+    "language": "sanskrit",
+    "native_script": "स्वामी",
+    "pronunciation_text": "swaa-mee",
+    "ipa": "sʋɑː.mi",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "sʋɑː.mi"
+    },
+    "aliases": [],
+    "category": "honorific",
+    "notes": "Sanskrit-derived honorific form. Approximate only.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "sanskrit-seva",
+    "word": "Seva",
+    "language": "sanskrit",
+    "native_script": "सेवा",
+    "pronunciation_text": "say-vaa",
+    "ipa": "seː.ʋɑː",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "seː.ʋɑː"
+    },
+    "aliases": [],
+    "category": "practice",
+    "notes": "Common Sanskrit-derived term. Seed approximation only.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "sanskrit-satsang",
+    "word": "Satsang",
+    "language": "sanskrit",
+    "native_script": "सत्सङ्ग",
+    "pronunciation_text": "sut-sung",
+    "ipa": "sət.səŋg",
+    "ssml_phoneme": {
+      "alphabet": "ipa",
+      "ph": "sət.səŋg"
+    },
+    "aliases": [
+      "Satsanga"
+    ],
+    "category": "devotional gathering",
+    "notes": "Seed approximation. Sanskritized and community pronunciations can diverge.",
+    "contributors": [
+      "initial-seed"
+    ],
+    "reviewed": false
+  }
+]
