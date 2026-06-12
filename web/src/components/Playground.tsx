@@ -119,9 +119,9 @@ export function Playground({ speechSupported, playSpeech, voices, selectedVoiceU
               value={sandboxLang}
               onChange={(e) => setSandboxLang(e.target.value)}
             >
-              <option value="gujarati">Gujarati</option>
-              <option value="hindi">Hindi</option>
-              <option value="sanskrit">Sanskrit</option>
+              {Object.entries(ALL_DATA).map(([key]) => (
+                <option key={key} value={key}>{key.charAt(0).toUpperCase() + key.slice(1)}</option>
+              ))}
             </select>
           </div>
 
