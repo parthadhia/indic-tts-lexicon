@@ -388,6 +388,22 @@
     "reviewed": false
   },
   {
+    "id": "gujarati-aksharbrahman",
+    "word": "Aksharbrahman",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "uk-shur-bruhm-hun",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "devotional proper noun",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed. This is the -n form of the existing Aksharbrahma entry.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
+    ],
+    "reviewed": false
+  },
+  {
     "id": "gujarati-akshardam",
     "word": "Akshardam",
     "language": "gujarati",
@@ -1223,6 +1239,22 @@
     "reviewed": false
   },
   {
+    "id": "gujarati-baps",
+    "word": "BAPS",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "B A P S",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "acronym",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed. The letters use single spaces, not hyphens, because the consumer strips hyphens and must preserve letter-by-letter speech.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
+    ],
+    "reviewed": false
+  },
+  {
     "id": "gujarati-barai",
     "word": "Barai",
     "language": "gujarati",
@@ -1831,6 +1863,24 @@
     "reviewed": false
   },
   {
+    "id": "gujarati-brahmanda",
+    "word": "brahmãnda",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "bruhm-aun-duh",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [
+      "brahmanda"
+    ],
+    "category": "concept",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed. The plain spelling is an alias of the diacritic form.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
+    ],
+    "reviewed": false
+  },
+  {
     "id": "gujarati-brahmanda-koti-dharam",
     "word": "brahmãnda-koti-dharam",
     "language": "gujarati",
@@ -2355,6 +2405,22 @@
     "notes": "Imported from a user-provided Gujarati devotional pronunciation seed list. Pronunciation text is an English-friendly approximation and remains unreviewed.",
     "contributors": [
       "user-seed-2026-06-11"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-darshan",
+    "word": "darshan",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "dur-shun",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "practice",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
     ],
     "reviewed": false
   },
@@ -4700,6 +4766,22 @@
     "reviewed": false
   },
   {
+    "id": "gujarati-karyakar",
+    "word": "karyakar",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "kaar-yuh-kaar",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "community",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
+    ],
+    "reviewed": false
+  },
+  {
     "id": "gujarati-karyu",
     "word": "karyu",
     "language": "gujarati",
@@ -5404,6 +5486,22 @@
     "reviewed": false
   },
   {
+    "id": "gujarati-mahant",
+    "word": "Mahant",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "muh-hunt",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "honorific",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
+    ],
+    "reviewed": false
+  },
+  {
     "id": "gujarati-mahant-swami-maharaj",
     "word": "Mahant Swami Maharaj",
     "language": "gujarati",
@@ -5911,6 +6009,22 @@
     "reviewed": false
   },
   {
+    "id": "gujarati-moksha",
+    "word": "moksha",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "moke-shuh",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "concept",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
+    ],
+    "reviewed": false
+  },
+  {
     "id": "gujarati-mrudu",
     "word": "mrudu",
     "language": "gujarati",
@@ -6099,6 +6213,22 @@
     "notes": "Imported from a user-provided Gujarati devotional pronunciation seed list. Pronunciation text is an English-friendly approximation and remains unreviewed.",
     "contributors": [
       "user-seed-2026-06-11"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-murtis",
+    "word": "murtis",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "moor-tees",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "practice",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed. This is the plural of the existing murti entry.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
     ],
     "reviewed": false
   },
@@ -6775,6 +6905,22 @@
     "reviewed": false
   },
   {
+    "id": "gujarati-parabrahman",
+    "word": "Parabrahman",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "puh-ruh-bruhm-hun",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "devotional proper noun",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed. This is the -n form of the existing Parabrahma entry.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
+    ],
+    "reviewed": false
+  },
+  {
     "id": "gujarati-paramam",
     "word": "paramam",
     "language": "gujarati",
@@ -6851,6 +6997,24 @@
     "notes": "Imported from a user-provided Gujarati devotional pronunciation seed list. Pronunciation text is an English-friendly approximation and remains unreviewed.",
     "contributors": [
       "user-seed-2026-06-11"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-paratparam",
+    "word": "parãtparam",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "puh-raat-puh-rum",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [
+      "paratparam"
+    ],
+    "category": "devotional",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed. The plain spelling is an alias of the diacritic form.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
     ],
     "reviewed": false
   },
@@ -7011,6 +7175,24 @@
     "notes": "Imported from a user-provided Gujarati devotional pronunciation seed list. Pronunciation text is an English-friendly approximation and remains unreviewed.",
     "contributors": [
       "user-seed-2026-06-11"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-pragaji",
+    "word": "Prãgaji",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "praa-gaa-jee",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [
+      "Pragaji"
+    ],
+    "category": "devotional proper noun",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed. The plain spelling is an alias of the diacritic form; upstream also carries Pragji for the same person.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
     ],
     "reviewed": false
   },
@@ -7302,6 +7484,22 @@
     "notes": "Imported from a user-provided Gujarati devotional pronunciation seed list. Pronunciation text is an English-friendly approximation and remains unreviewed.",
     "contributors": [
       "user-seed-2026-06-11"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-prasang",
+    "word": "prasang",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "pruh-sung",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "practice",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
     ],
     "reviewed": false
   },
@@ -7929,6 +8127,38 @@
     "notes": "Imported from a user-provided Gujarati devotional pronunciation seed list. Pronunciation text is an English-friendly approximation and remains unreviewed.",
     "contributors": [
       "user-seed-2026-06-11"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-sadhu",
+    "word": "sadhu",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "saa-dhoo",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "honorific",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-sadhus",
+    "word": "sadhus",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "saa-dhoos",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "honorific",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed. This is the plural of the sadhu entry.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
     ],
     "reviewed": false
   },
@@ -8976,6 +9206,22 @@
     "notes": "Imported from a user-provided Gujarati devotional pronunciation seed list. Pronunciation text is an English-friendly approximation and remains unreviewed.",
     "contributors": [
       "user-seed-2026-06-11"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-shlokas",
+    "word": "shlokas",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "shlo-kuhs",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [],
+    "category": "practice",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed. This is the plural of the existing shloka entry.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
     ],
     "reviewed": false
   },
@@ -10183,6 +10429,24 @@
     "notes": "Imported from a user-provided Gujarati devotional pronunciation seed list. Pronunciation text is an English-friendly approximation and remains unreviewed.",
     "contributors": [
       "user-seed-2026-06-11"
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "gujarati-vachanamrut",
+    "word": "Vachanãmrut",
+    "language": "gujarati",
+    "native_script": null,
+    "pronunciation_text": "vuh-chun-aam-rut",
+    "ipa": null,
+    "ssml_phoneme": null,
+    "aliases": [
+      "Vachanamrut"
+    ],
+    "category": "devotional proper noun",
+    "notes": "Pronunciation text is an English-friendly approximation and remains unreviewed. The plain spelling is an alias of the diacritic form.",
+    "contributors": [
+      "baps-audiobook-2026-09-14"
     ],
     "reviewed": false
   },
